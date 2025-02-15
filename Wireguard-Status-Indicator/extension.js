@@ -1,6 +1,6 @@
 /* extension.js
  *
- * https://github.com/MandoCSGO/wireguard-status-indicator
+ * https://github.com/MandoCSGO/Wireguard-Status-Indicator
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -149,8 +149,8 @@ const Indicator = GObject.registerClass(
         _init(client, WireGuard) {
             super._init(0.0, _('Wireguard-extension'));
 
-            let extensionObject = Extension.lookupByUUID('gnome-wireguard-extension@SJBERTRAND.github.com');
-            this.settings = extensionObject.getSettings('org.gnome.shell.extensions.gnome-wireguard-extension@SJBERTRAND.github.com');
+            let extensionObject = Extension.lookupByUUID('wireguard-status-indicator');
+            this.settings = extensionObject.getSettings('org.gnome.shell.extensions.wireguard-status-indicator');
 
             let icon = new St.Icon({
                 style_class: 'system-status-icon',
