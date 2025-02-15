@@ -1,0 +1,13 @@
+{
+  "description": "A status indicator for Wireguard connections.",
+  "gettext-domain": "wireguard-status-indicator",
+  "name": "WireGuard-Status-Indicator",
+  "shell-version": [
+    "45",
+    "46",
+    "47"
+  ],
+  "url": "https://github.com/MandoCSGO/wireguard-status-indicator",
+  "uuid": "wireguard-status-indicator",
+  "version": 14
+}
