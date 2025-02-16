@@ -1,0 +1,13 @@
+{
+  "description": "A fork of https://github.com/SJBERTRAND/gnome-wireguard-extension",
+  "gettext-domain": "Wireguard-Status-Indicator@MandoCSGO.github.com",
+  "name": "WireGuard-Status-Indicator",
+  "shell-version": [
+    "45",
+    "46",
+    "47"
+  ],
+  "url": "https://github.com/MandoCSGO/Wireguard-Status-Indicator",
+  "uuid": "Wireguard-Status-Indicator@MandoCSGO.github.com",
+  "version": 1
+}
